@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #e0e0e0;
+    user-select: none;
+    cursor:none;
+    scroll-behavior: smooth;
+}
+
+.cursor-custom{
+    
+    width: 25px;
+    height: 25px;
+    border: 1px solid rgb(192, 192, 192);
+    background-color: rgb(192, 192, 192);
+    border-radius: 50%;
+    position: absolute;
+}
+
+img{
+    height:50px;
+}
+
+
+
+
+p#info1{
+    justify-content: left;
+    text-align: justify;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    padding-right: 750px;
+    padding-left: 130px;
+    color: blue;
+    font-family: 'Telegraf Regular', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    word-spacing: -0.1em;
+}
+
+p#info2{
+    justify-content: right;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    padding-left: 750px;
+    padding-right: 750px;
+    color: blue;
+    font-family: 'Robot Mono', monospace;
+    font-weight: 500;
+    font-size: 23px;
+}
+
+li, a {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 23px;
+    color: blue;
+    text-decoration: none;
+    padding-top: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 7px;
+    margin: 5px;
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 7%;
+    border-bottom: 1px solid rgb(83, 83, 83); 
+}
+
+h3#header-name{
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-family: 'Playfair Display';
+    color: blue;
+    text-align: center;
+}
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 1px;
+}
+
+.nav_links li a {
+    opacity: 0.5;
+    transition:all 0.3s ease;
+}
+
+.nav_links li a:hover{
+    opacity: 1;
+    border: 1px;
+    border-radius: 8px;
+    background-color: rgb(192, 192, 192);
+
+    
+}
+
+
