@@ -6,7 +6,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #e0e0e0;
+    
     user-select: none;
     cursor:none;
     scroll-behavior: smooth;
@@ -28,35 +28,46 @@ img{
 
 
 
-
-p#info1{
+.div1{
+    background-color: #e0e0e0;
+}
+h4#div1-title{
     justify-content: left;
     text-align: justify;
     padding-top: 100px;
     padding-bottom: 30px;
-    padding-right: 750px;
+    padding-right: 900px;
     padding-left: 130px;
     color: blue;
     font-family: 'Telegraf Regular', sans-serif;
     font-weight: 500;
-    font-size: 40px;
-    word-spacing: -0.1em;
+    font-size: 35px;
+    letter-spacing: 0.03em;
 }
 
-p#info2{
-    justify-content: right;
-    text-align: center;
-    padding-top: 100px;
+p#info2 a{
+    text-align: left;
+    padding-top: 50px;
     padding-bottom: 30px;
-    padding-left: 750px;
-    padding-right: 750px;
+    padding-left: 130px;
     color: blue;
     font-family: 'Robot Mono', monospace;
     font-weight: 500;
     font-size: 23px;
+    text-decoration: none;
 }
 
-li, a {
+p#info2 u{
+    opacity: 0.5;
+    transition: all 0.3s ease;
+}
+
+p#info2 u:hover{
+    opacity: 1;
+}
+
+
+li, a#navbar-a {
     font-family: 'Roboto Mono', monospace;
     font-weight: 500;
     font-size: 23px;
@@ -109,6 +120,38 @@ h3#header-name{
     background-color: rgb(192, 192, 192);
 
     
+}
+
+.trusted{
+    background-color: #e0e0e0;
+}
+h4#trusted-title{
+
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 30px;
+    color: blue;
+    font-family: 'Telegraf Regular', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    word-spacing: -0.1em;
+}
+
+
+.key-features{
+    border-top: 1px solid #000;
+    background-color: #0000ff;
+    padding-bottom: 7000px;
+    padding-top: 1000px
+}
+h2#key-features-title{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: #e0e0e0;
+    font-family: 'Telegraf Regular', sans-serif;
+    font-weight: 500;
+    font-size: 65px;
 }
 
 
