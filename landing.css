@@ -6,10 +6,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
     user-select: none;
     cursor:none;
     scroll-behavior: smooth;
+
 }
 
 .cursor-custom{
@@ -35,9 +35,9 @@ h4#div1-title{
     justify-content: left;
     text-align: justify;
     padding-top: 100px;
+    padding-left: 130px;
     padding-bottom: 30px;
     padding-right: 900px;
-    padding-left: 130px;
     color: blue;
     font-family: 'Telegraf Regular', sans-serif;
     font-weight: 500;
@@ -45,39 +45,146 @@ h4#div1-title{
     letter-spacing: 0.03em;
 }
 
+p#info2 {
+    
+padding-top: 3em;
+    
+padding-bottom: 3em;
+    
+padding-left: 120px;
+}
+
 p#info2 a{
-    text-align: left;
-    padding-top: 50px;
-    padding-bottom: 30px;
-    padding-left: 130px;
-    color: blue;
+    opacity: 0.5;
+    text-decoration: none;
+    font-size: 25px;
     font-family: 'Robot Mono', monospace;
     font-weight: 500;
-    font-size: 23px;
+    color: blue;
+    transition: all 0.3s ease;
+    padding:10px; 
+}
+
+
+p#info2 a:hover{
+    opacity: 1;
+    border-top: 0.7px;
+    border-left: 12px;
+    border-right:12px;
+    border-radius: 8px;
+    background-color: rgb(192, 192, 192);
+}
+
+.div2{
+    background-color: #e0e0e0;
+    
+}
+h4#div2-title{
+    text-align: justify;
+    padding-top: 30px;
+    padding-left: 900px;
+    padding-bottom: 30px;
+    padding-right: 130px;
+    color: blue;
+    font-family: 'Telegraf Regular', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    letter-spacing: 0.03em;
+}
+
+
+p#info3 {
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-right: 120px;
+    text-align: end;
+}
+
+p#info3 a{
+    opacity: 0.5;
+    font-size: 25px;
+    text-align: right;
+    font-family: 'Robot Mono', monospace;
+    font-weight: 500;
+    color: blue;
+    transition: all 0.3s ease;
+    padding:10px; 
     text-decoration: none;
 }
 
-p#info2 u{
-    opacity: 0.5;
-    transition: all 0.3s ease;
-}
 
-p#info2 u:hover{
+p#info3 a:hover{
     opacity: 1;
+    border-top: 0.7px;
+    border-left: 12px;
+    border-right:12px;
+    border-radius: 8px;
+    background-color: rgb(192, 192, 192);
 }
 
 
-li, a#navbar-a {
-    font-family: 'Roboto Mono', monospace;
+
+.div3{
+    background-color: #e0e0e0;
+}
+h4#div3-title{
+    justify-content: left;
+    text-align: justify;
+    padding-top: 30px;
+    padding-left: 130px;
+    padding-bottom: 30px;
+    padding-right: 900px;
+    color: blue;
+    font-family: 'Telegraf Regular', sans-serif;
     font-weight: 500;
+    font-size: 35px;
+    letter-spacing: 0.03em;
+}
+
+p#info4 {
+    
+padding-top: 3em;
+    
+padding-bottom: 3em;
+    
+padding-left: 120px;
+}
+
+p#info4 a{
+    opacity: 0.5;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Robot Mono', monospace;
+    font-weight: 500;
+    color: blue;
+    transition: all 0.3s ease;
+    padding:10px; 
+}
+
+
+p#info4 a:hover{
+    opacity: 1;
+    border-top: 0.7px;
+    border-left: 12px;
+    border-right:12px;
+    border-radius: 8px;
+    background-color: rgb(192, 192, 192);
+}
+
+
+
+li#navbar-li, a#navbar-a {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
     font-size: 23px;
     color: blue;
     text-decoration: none;
     padding-top: 7px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
     padding-bottom: 7px;
     margin: 5px;
+    word-spacing: -0.15em;
 }
 
 
@@ -90,12 +197,12 @@ header{
     border-bottom: 1px solid rgb(83, 83, 83); 
 }
 
-h3#header-name{
-    font-size: 50px;
-    font-weight: 600;
+h3#header-name {
+    font-size: 60px;
+    font-weight: 800;
     padding-top: 7px;
-    padding-bottom: 7px;
-    font-family: 'Playfair Display';
+    padding-bottom: 2px;
+    font-family: "Playfair Display";
     color: blue;
     text-align: center;
 }
@@ -115,7 +222,9 @@ h3#header-name{
 
 .nav_links li a:hover{
     opacity: 1;
-    border: 1px;
+    border-top: 0.7px;
+    border-left: 2px;
+    border-right:2px;
     border-radius: 8px;
     background-color: rgb(192, 192, 192);
 
@@ -124,6 +233,7 @@ h3#header-name{
 
 .trusted{
     background-color: #e0e0e0;
+    justify-content: center;
 }
 h4#trusted-title{
 
@@ -139,19 +249,36 @@ h4#trusted-title{
 
 
 .key-features{
-    border-top: 1px solid #000;
+    border-top: 1px solid rgb(83, 83, 83);
+    border-bottom: 1px solid rgb(83, 83, 83);
     background-color: #0000ff;
-    padding-bottom: 7000px;
-    padding-top: 1000px
+    padding: 30px 7%;
 }
-h2#key-features-title{
-    text-align: center;
+
+
+h2#key-features-title {
+    text-align: left;
     padding-top: 50px;
     padding-bottom: 30px;
     color: #e0e0e0;
-    font-family: 'Telegraf Regular', sans-serif;
-    font-weight: 500;
-    font-size: 65px;
+    font-family: "Playfair Display";
+    font-weight: 800;
+    font-size: 60px;
 }
 
+.logos{
+    list-style: none;
+    padding-bottom: 5.5em;
+    display: flex;
+    justify-content: center;
+}
 
+img{
+    height: 100px;
+    padding: 15px;
+}
+
+.logos li#logolist{
+    display: inline-block;
+    padding: 0.1em;
+}
