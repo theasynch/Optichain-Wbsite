@@ -324,3 +324,108 @@ h4#feature1-title {
     font-size: 20px;
     letter-spacing: 0.03em;
 }
+
+.get-oc{
+    background-color: rgb(224,224,224);
+}
+
+h2#buy{
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 30px;
+    color: blue;
+    font-family: "Telegraf", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    word-spacing: -0.1em;
+}
+
+p#bottom{
+    display:flex;
+    justify-content: center;
+    
+    padding-bottom: 40px;
+    font-family: "Telegraf", sans-serif;
+    font-weight:400;
+    font-size:20px;
+    color: blue;
+
+}
+
+p#pricing{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 150px;
+    
+}
+
+
+p#pricing a{
+    text-decoration: none;
+    border: 2px solid rgb(192, 192, 192);
+    border-radius: 5px;
+    background-color: rgb(192, 192, 192);
+    font-size: 1.5em;
+    font-family: "Robot Mono", monospace;
+    font-weight: 500;
+    color: blue;
+    transition: all 0.3s ease 0s;
+    padding: 10px 20px;
+}
+
+
+.footer{
+    padding: 50px 30px;
+    background-color: rgb(192, 192, 192);
+
+}
+
+.footer h1#logo{
+    font-family: "Playfair Display";
+    font-weight: 600;
+    font-size: 170px;
+    color: blue;
+    letter-spacing: -0.04em;
+    text-align: center;
+}
+
+.footer p#made-by{
+    font-family: "Telegraf", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: blue;
+    text-align: center;
+}
+.footer div#links-list{
+    padding: 0 10px;
+    
+}
+
+.footer div#links-list ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top:70px;
+    padding-left: 300px;
+    padding-right: 300px;
+
+}
+
+.footer div#links-list ul li {
+    padding: 7px 0;
+}
+.footer div#links-list ul li a{
+    font-family: "Telegraf", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+.copyright{
+    background-color: rgb(192, 192, 192);
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: "Telegraf", sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    color: blue;
+}
