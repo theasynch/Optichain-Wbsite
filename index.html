@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>OptiChain</title>
-    <link rel="stylesheet" type="text/css" href="landing.css">
+    <link rel="stylesheet" type="text/css" href="pcstyle.css">
+    <link rel="stylesheet" type="text/css" href="mobstyle.css" media="screen and (max-width: 1080px)">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/victormono@latest/dist/index.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="icon" type="image/png" href="Icon.ico">
@@ -20,46 +21,25 @@
                 <ul class="nav_links">
                     
                     
-                    <li id="navbar-li"><a id="navbar-a"href="#key-features-title">features</a></li>
-                    <li id="navbar-li"><a id="navbar-a"href="#">pricing</a></li>
-                    <li id="navbar-li"><a id="navbar-a"href="https://github.com/theasynch/OptiChain" target="_blank">source code</a></li>
+                    <li id="navbar-li"><a id="navbar-a"href="#key-features-title">Features</a></li>
+                    <li id="navbar-li"><a id="navbar-a"href="#">Pricing</a></li>
+                    <li id="navbar-li"><a id="navbar-a"href="https://github.com/theasynch/OptiChain" target="_blank">Source Code</a></li>
                 </ul>
             </nav>
         </header>
-    <div class = "cursor-custom" id="cursor-custom"></div>
-    <script>
-        const cursor = document.querySelector('.cursor-custom');
-        document.addEventListener('mousemove', e => {
-            cursor.setAttribute("style", "top: "+e.pageY+"px; left: "+e.pageX+"px;")
-        })
-    </script>
-    <script>
-        window.addEventListener('scroll', function() {
-            const mainTitle = document.getElementById('main-title');
-            const headerContent = document.getElementById('header-content');
-            const header = document.getElementById('fixed-header');
-
-            if (window.scrollY > 50) { // Adjust this value as needed
-                headerContent.textContent = mainTitle.textContent;
-                mainTitle.style.visibility = 'hidden';
-            } else {
-                headerContent.textContent = '';
-                mainTitle.style.visibility = 'visible';
-            }   
-        })
-
+    
     </script>
         <div class="div1">
             <h4 id="div1-title"> <b>Efficiently</b> empowering you to make informed decisions and drive business growth.</h4>
             <p id="info2"><a href="#key-features-title" class="scroll-feature" >Explore key features <b>↓</b></a></p>
         </div>
         <div class="div2">
-            <h4 id="div2-title"> <b>Affordable</b> and flexible subscription plans. Cancel anytime or pay automatically.</h4>
+            <h4 id="div2-title"> <b>Affordable</b> and flexible subscription plans. Enable auto-renewal and cancel anytime.</h4>
             <p id="info3"><a href="#key-features-title" class="scroll-feature" >View pricing <b>↗</b></a></p>
         </div>
         <div class="div3">
             <h4 id="div3-title"> <b>Frequent</b> updates and bug fixes, ensuring seamless and enriched user experience.</h4>
-            <p id="info4"><a href="#key-features-title" class="scroll-feature" >Visit app repository <b>↗</b></a></p>
+            <p id="info4"><a href="https://github.com/theasynch/OptiChain" target="_blank" class="scroll-feature" >Visit app repository <b>↗</b></a></p>
         </div>
         <div class="trusted">
             <h4 id="trusted-title">  TRUSTED BY</h4>
@@ -72,9 +52,27 @@
             </ul>
 
         </div>
-        
-        <div class = "key-features">
+        <div class="key-features">
             <h2 id="key-features-title">Key Features</h2>
+        </div>
+        <div class = "key-features-content">
+            
+            <div class="feature1">
+                <h2 id="feature1-title">Revenue Tracking</h2>
+                <h4 id="feature1-title"> Provides real-time visibility into revenue streams, allowing firm owners to monitor sales performance across different product lines, regions and time periods. Users can analyze revenue trends, identify top-performing products, and track sales growth over time.</h4>
+            </div>
+            <div class="feature2">
+                <h2 id="feature2-title">Inventory Management</h2>
+                <h4 id="feature2-title"> OptiChain offers robust inventory management capabilities, enabling users to maintain optimal inventory levels while minimizing stockouts and overstocking. Users can track inventory levels, monitor stock movements, set reorder points, and recieve alerts for low inventory levels.</h4>
+            </div>
+            <div class="feature1">
+                <h2 id="feature1-title">Sales Growth Analysis</h2>
+                <h4 id="feature1-title"> OptiChain facilitates in-depth analysis of sales growth metrics, helping firm owners to identify growth oppurtunities and optimize sales stratergies. Users can analyse sales data by product category, customer segment and geographical region to uncover trends and patters driving sales growth.</h4>
+            </div>
+            <div class="feature2">
+                <h2 id="feature2-title">Logistics Optimization</h2>
+                <h4 id="feature2-title"> OptiChain streamlines logistics operations by optimizing transportation routes, minimizing transportation costs, and improving delivery efficiency. Users can track shipments, monitor delivery schedules, and indentify oppurtunities to streamline logistics processes.</h4>
+            </div>
         </div>
         
     </body>

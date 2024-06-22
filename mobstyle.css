@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap"); @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap"); @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"); * {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    user-select: none;
+    scroll-behavior: smooth;
+}
+
+img {
+    height: 50px;
+}
+
+.div1 {
+    background-color: rgb(224, 224, 224);
+}
+
+h4#div1-title {
+    text-align: justify;
+    padding: 100px 60px 30px;
+    color: blue;
+    font-family: "Telegraf Regular", sans-serif;
+    font-weight: 500;
+    font-size: 1.45em;
+    letter-spacing: 0.03em;
+}
+
+p#info2 {
+    padding-top:0;
+    padding-bottom: 3em;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+p#info2 a {
+    opacity: 1;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: "Robot Mono", monospace;
+    font-weight: 500;
+    color: blue;
+    transition: all 0.3s ease 0s;
+}
+
+
+
+.div2 {
+    background-color: rgb(224, 224, 224);
+}
+
+h4#div2-title {
+    text-align: justify;
+    padding: 10px 60px 30px;
+    color: blue;
+    font-family: "Telegraf Regular", sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    letter-spacing: 0.03em;
+}
+
+p#info3 {
+    padding-bottom: 3em;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+p#info3 a {
+    opacity: 1;
+    text-decoration: none;
+    font-size: 1em;font-family: "Robot Mono", monospace;
+    font-weight: 500;
+    color: blue;
+    transition: all 0.3s ease 0s;
+}
+
+
+
+.div3 {
+    background-color: rgb(224, 224, 224);
+}
+
+h4#div3-title {
+    text-align: justify;
+    padding: 10px 60px 30px;
+    color: blue;
+    font-family: "Telegraf Regular", sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    letter-spacing: 0.03em;
+}
+
+p#info4 {
+    padding-bottom: 3em;
+    text-align: center;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+p#info4 a {
+    opacity: 1;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: "Robot Mono", monospace;
+    font-weight: 500;
+    color: blue;
+    transition: all 0.3s ease 0s;
+}
+
+
+
+li#navbar-li, a#navbar-a {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 800;
+    font-size: 0.85em;
+    color: blue;
+    text-decoration: none;
+    padding: 7px;
+    margin: 5px;
+    word-spacing: -0.15em;
+}
+
+header {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding: inherit;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+h3#header-name {
+    font-size: 3.7em;
+    font-weight: 800;
+    padding-top: 35px;
+    padding-bottom: 2px;
+    font-family: "Playfair Display";
+    color: blue;
+    text-align: center;
+}
+
+.nav_links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 1px;
+}
+
+.nav_links li a {
+    opacity: 0.7;
+    transition: all 0.3s ease 0s;
+}
+
+
+
+.trusted {
+    background-color: rgb(224, 224, 224);
+    justify-content: center;
+}
+
+h4#trusted-title {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    color: blue;
+    font-family: "Telegraf Regular", sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    word-spacing: -0.1em;
+}
+
+.logos {
+    list-style: none;
+    padding-bottom: 33px;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 55px;
+    padding: 7px;
+}
+
+.logos li#logolist {
+    display: inline-block;
+    padding: 0.1em;
+}
+
+.key-features {
+    border-top: 1px solid rgb(83, 83, 83);
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background-color: rgb(0, 0, 255);
+    padding: 30px 7%;
+}
+
+.key-features-content {
+    border-top: 1px solid rgb(83, 83, 83);
+    border-bottom: 1px solid rgb(83, 83, 83);
+    background-color: rgb(0, 0, 255);
+    padding: 30px 7%;
+}
+
+h2#key-features-title {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: rgb(224, 224, 224);
+    font-family: "Playfair Display";
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.feature1 {
+    background-color: blue;
+}
+
+h2#feature1-title {
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: rgb(224, 224, 224);
+    font-family: "Playfair Display";
+    font-weight: 400;
+    font-size: 40px;
+}
+
+h4#feature1-title {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-right: 45.5em;
+    color: rgb(224, 224, 224);
+    font-family: "Telegraf Regular", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    letter-spacing: 0.03em;
+}
+
+.feature2 {
+    background-color: blue;
+}
+
+h2#feature2-title {
+    text-align: right;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: rgb(224, 224, 224);
+    font-family: "Playfair Display";
+    font-weight: 400;
+    font-size: 30px;
+}
+
+h4#feature2-title {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+    color: rgb(224, 224, 224);
+    font-family: "Telegraf Regular", sans-serif;
+    font-weight: 100;
+    font-size: 1em;
+    letter-spacing: 0.03em;
+}
+
+.feature1 {
+    background-color: blue;
+}
+
+h2#feature1-title {
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: rgb(224, 224, 224);
+    font-family: "Playfair Display";
+    font-weight: 400;
+    font-size: 30px;
+}
+
+h4#feature1-title {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-right: 100px;
+    color: rgb(224, 224, 224);
+    font-family: "Telegraf Regular", sans-serif;
+    font-weight: 100;
+    font-size: 1em;
+    letter-spacing: 0.03em;
+}
